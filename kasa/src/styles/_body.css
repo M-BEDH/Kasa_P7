@@ -1,0 +1,157 @@
+.LogementBody{
+    width: 83%;
+    font-family: Montserrat;
+    position: relative;
+    top: 200px;
+    margin-left: 150px;
+}
+.titreLogement{
+    width: 535px;
+    font-size:30px;
+    font-weight: 500;
+    letter-spacing: 0em;
+}
+.lieu{
+    width: 85%;
+    color: #ff6060;
+}
+.location {
+    font-size: 22px;
+}
+.tagsLogement{
+    display: flex;
+    width: 575px;
+    position: relative;
+    top: 30px;
+}
+.tags {
+    width: 155px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #ff6060;
+    color: white;
+}
+.Host {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 81%;
+    top: -140px;
+    display: flex;
+}
+.Profil img{
+    position: relative;
+    left: 65%;
+    top: -150px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #C4C4C4;
+}
+.nom{
+    height: 52px;
+    width: 93px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    color: #ff6060;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.stars{
+    height: 36px;
+    width: 190px;
+    border-radius: 0px;
+    position: absolute;
+    top: 125px;
+    left: 22%;
+}
+img.etoile{
+    height: 24px;
+    width:24.7px;
+    border-radius: 0px;
+    font-size: 10px;
+    background-color: white;
+    margin-right: 11px;
+}
+
+
+/* ************* Media query ************ */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .LogementBody{
+        width: 90%;
+        font-family: Montserrat;
+        margin: auto;
+        top: 275px;
+    }
+    .titreLogement{
+        font-size: 20px;
+        width: 250px;
+    }
+    .lieu{
+        width: 250px;
+    }
+    .location{
+        font-size: 16px;
+    }
+    .tags{
+        width: 80px;
+        height: 25px;
+        line-height: 25px ;
+        font-size: 11px;
+        margin-right: 5px;
+    }
+    .Host{
+        position: relative;
+        top: 50px;
+        left: 10px;
+        
+    }
+    .nom{
+        font-size: 18px;
+        left: 130px;
+    }
+    .Profil img{
+        position: relative;
+        top: -45px;
+        left: 250px ;
+    }
+    .stars{
+        left: -10px;
+        top: 30px;
+    }
+    img.etoile{
+        height: 14px;
+        width: 14.7px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1450px) {
+.LogementBody {
+    width: 80%;
+    margin: auto;
+}
+.Host{
+    left:58%;
+}
+.Profil img{
+    top: -106px
+}
+.stars{
+    top: 86px;
+}
+.tags{
+    width: 130px;
+    font-size: 16px;
+}
+}

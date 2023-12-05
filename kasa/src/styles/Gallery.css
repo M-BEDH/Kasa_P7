@@ -1,0 +1,11 @@
+.Gallery{
+display: inline-grid;
+width: 33%;
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .Gallery{
+    width: 100%;
+}
+}
+
+

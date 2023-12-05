@@ -1,0 +1,88 @@
+.Page404{
+    position: relative;
+    top: 150px;
+    text-align: center ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 142.6%;
+    color: #FF6060;
+}
+.oups{
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    position: absolute;
+    top: 62%;
+    left: 22%;
+    right: 21%;
+    bottom: 35%;
+    color: #FF6060;
+}
+.oups:hover{
+    text-decoration: underline 2px rgb(69, 186, 240);
+}
+.retour a{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    position: absolute;
+    top: 80%;
+    left: 43%;
+    color: #FF6060;
+    text-decoration-line: underline;
+}
+.retour a:hover{
+    text-decoration: underline rgb(69, 186, 240);
+}
+
+
+/* ************* Media query ************ */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .Page404{
+        width: 198px;
+        height: 99px;
+        font-weight: 500;
+        font-size: 100px;
+        margin: auto;
+        font-weight: 700;
+    }
+    .oups{
+        width: 85%;
+        top: 40px;
+        font-size: 18px;
+        top: 30%;
+        left: 6%;
+    }
+    .retour a{
+        width: 335px;
+        top: 450px;
+        font-size: 14px;
+        margin-left: -25%;
+    }  
+    .spanResponsive{
+        width: 90%;
+        display: block;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1450px) {
+.spanResponsive{
+    width: 300px;
+    display: block;
+    padding-left: 22%;
+    line-height: 2rem;
+}
+.oups{
+    font-size: 30px;
+}
+.retour a{
+    margin-left: -7%;
+}
+}
+
+

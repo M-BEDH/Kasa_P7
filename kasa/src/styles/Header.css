@@ -1,0 +1,204 @@
+.kasa-header {
+    color: #FF6060;
+    position: relative;
+    width: 80%;
+    height: 68px;
+    margin: auto;
+    top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.logoK{
+    position: absolute;
+    left: 0%;
+    right: 95.62%;
+    top: 0%;
+}
+.logo {
+    position: absolute;
+    left: 4.86%;
+    right: 91.43%;
+    top: 21.53%;
+    bottom: 0%; 
+}
+.logo1{
+    position: absolute;
+    left: 7.4%;
+    right: 80%;
+    top: 68.66%;
+}
+.logoS{
+    position: absolute;
+    left: 9.58%;
+    right: 87.24%;
+    top: 21.53%;
+}
+.logoA{
+    position: absolute;
+    left: 13.66%;
+    right: 83.04%;
+    top: 21.25%;
+}
+#navigation {
+    position: relative;
+    left: -2%;
+    right: 0%;
+    top: 25%;
+    bottom: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+}
+a.active {
+    text-decoration: underline #FF6060;
+}
+ul{
+    display: flex;
+}
+.Accueil{
+    width: 136px;
+    height: 34px;
+    left: 80%;
+    top: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    text-align: right;
+    list-style: none;
+    color: #FF6060;
+    margin-right: 15px;
+}
+.Accueil:hover, .Apropos:hover{
+    text-decoration: underline rgb(169, 227, 247);
+}
+.Apropos{
+    width: 116px;
+    height: 34px;
+    right: 0%;
+    top: 17px;
+    bottom: 25%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    list-style: none;
+    color: #FF6060;
+}
+
+
+/* ************* Media query ************ */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .kasa-header {
+        position: absolute;
+        width: 52%;
+        justify-content: space-between;
+        height: 58px;
+        top: 40px;
+        margin: 18px;
+    }
+    .Accueil, .Apropos{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 400;
+        color: #FF6060;
+    }
+    .logoK {
+        position: absolute;
+        bottom: 8.45%;
+        height: 43px;
+        width: 37px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+    }
+    .logo {
+        position: absolute;
+        left: 15%;
+        top: 21.53%;
+        bottom: 0%;
+        height: 36px;
+        width: 31px;
+        left: 41px;
+        top: 10px;
+        border-radius: 0px;
+    }
+    .logo1 {
+        position: absolute;
+        left: 23%;
+        top: 70%;
+        bottom: 8.17%;
+        height: 10px;
+        width: 3px;
+        left: 63px;
+        top: 32px;
+        border-radius: 0px;
+    }
+    .logoS {
+        position: absolute;
+        left: 28%;
+        top: 21.53%;
+        bottom: 7.89%;
+        height: 33px;
+        width: 27px;
+        left: 81px;
+        top: 10px;
+        border-radius: 0px;
+    }
+    .logoA {
+        position: absolute;
+        left: 40%;
+        top: 21.25%;
+        bottom: 7.9%;
+        height: 33px;
+        width: 28px;
+        left: 116px;
+        top: 9px;
+        border-radius: 0px;
+    }
+    #navigation {
+        left: 33%;
+    }
+    ul {
+        display: flex;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1450px) {
+.kasa-header{
+    width: 78%;
+    margin: auto;
+}
+.logo{
+left: 9%;
+}
+.logo1{
+    left: 13%;
+}
+.logoS{
+    left: 17%;
+    top: 15px;
+}
+.logoA{
+    left: 23%;
+    top: 15px;
+}
+#navigation{
+   left: 5%;
+   top: 30px;
+}
+.Accueil, .Apropos{
+   font-size: 20px;
+ }
+ a.active {
+    text-decoration: underline #FF6060;
+ }
+}
+
+
+

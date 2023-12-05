@@ -1,0 +1,80 @@
+.carroussel{
+    width: 83%;
+    height: 415px;
+    position: relative;
+    left: 150px;
+    top: 270px;
+    border-radius: 25px;
+}
+.vectorGauche{
+    height: 79px;
+    width: 46px;
+    position: absolute;
+    left: 1%;
+    top: 70px;
+    z-index: 100;
+}
+.vectorDroite{
+    height: 79px;
+    width: 46px;
+    position:absolute;
+    top: 70px;
+    left: 95.7%;
+    z-index: 100;
+}
+img.apptInt{
+    width: 100%;
+    height: 415px;
+    position:absolute;
+    top: -100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.fraction{
+    position: relative;
+    color: white;
+    font-size: 15px;
+    width: 24px;
+    height: 32px;
+    top: 65%;
+    margin: auto;
+    justify-content: end;
+}
+
+
+
+/* ************* Media query ************ */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .carroussel{
+        left: 0px;
+        width: 90%;
+        margin: auto;
+        height: 150px;
+        padding: 5px;
+    }
+    img.apptInt{
+        height: 255px;
+    }
+    .vectorGauche, .vectorDroite{
+        height: 49px;
+        width: 26px;
+        top: 0px;
+    }
+    .vectorDroite{
+        left: 91%;
+    }
+    .fraction{
+        top: 80%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1450px) {
+.vectorDroite{
+    left: 92.5%;
+}
+.carroussel{
+    left: 0;
+    margin: auto;
+}
+}
+
